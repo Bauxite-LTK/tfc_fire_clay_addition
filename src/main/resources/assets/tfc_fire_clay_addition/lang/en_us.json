@@ -7,5 +7,9 @@
   "tfc_fire_clay_addition.configuration.title": "TFC: Fire Clay Addition Configs",
 
   "tfc_fire_clay_addition.configuration.section.tfc_fire_clay_addition.common.toml": "TFC: Fire Clay Addition Configs",
-  "tfc_fire_clay_addition.configuration.section.tfc_fire_clay_addition.common.toml.title": "TFC: Fire Clay Addition Configs"
+  "tfc_fire_clay_addition.configuration.section.tfc_fire_clay_addition.common.toml.title": "TFC: Fire Clay Addition Configs",
+
+  "tfc_fire_clay_addition.configuration.thermal_vessel_fluid_capacity": "Thermal Vessel Fluid Capacity",
+  "tfc_fire_clay_addition.configuration.thermal_vessel_slot_capacity": "Thermal Vessel Slot Capacity",
+  "tfc_fire_clay_addition.configuration.thermal_vessel_maximum_item_size": "Thermal Vessel Maximum Item Size"
 }

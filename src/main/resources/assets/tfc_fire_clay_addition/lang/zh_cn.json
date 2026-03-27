@@ -7,5 +7,9 @@
   "tfc_fire_clay_addition.configuration.title": "群峦耐火黏土附加 配置",
 
   "tfc_fire_clay_addition.configuration.section.tfc_fire_clay_addition.common.toml": "群峦耐火黏土附加 配置",
-  "tfc_fire_clay_addition.configuration.section.tfc_fire_clay_addition.common.toml.title": "群峦耐火黏土附加 配置"
+  "tfc_fire_clay_addition.configuration.section.tfc_fire_clay_addition.common.toml.title": "群峦耐火黏土附加 配置",
+
+  "tfc_fire_clay_addition.configuration.thermal_vessel_fluid_capacity": "保温小罐流体容量",
+  "tfc_fire_clay_addition.configuration.thermal_vessel_slot_capacity": "保温小罐物品格堆叠容量",
+  "tfc_fire_clay_addition.configuration.thermal_vessel_maximum_item_size": "保温小罐最大存储物品体积"
 }

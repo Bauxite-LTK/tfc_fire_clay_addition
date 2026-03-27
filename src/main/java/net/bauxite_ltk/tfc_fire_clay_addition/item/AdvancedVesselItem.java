@@ -1,5 +1,6 @@
 package net.bauxite_ltk.tfc_fire_clay_addition.item;
 
+import net.bauxite_ltk.tfc_fire_clay_addition.TFCFCAConfig;
 import net.bauxite_ltk.tfc_fire_clay_addition.component.TFCFCAComponents;
 import net.bauxite_ltk.tfc_fire_clay_addition.component.mold.AdvancedVessel;
 import net.bauxite_ltk.tfc_fire_clay_addition.component.mold.AdvancedVesselComponent;
@@ -88,13 +89,13 @@ public class AdvancedVesselItem extends Item {
         @Override
         public int fluidCapacity()
         {
-            return TFCConfig.SERVER.smallVesselCapacity.get();
+            return TFCFCAConfig.THERMAL_VESSEL_FLUID_CAPACITY.get();
         }
 
         @Override
         public boolean canContainItem(ItemStack stack)
         {
-            return ItemSizeManager.get(stack).getSize(stack).isEqualOrSmallerThan(Size.LARGE)
+            return ItemSizeManager.get(stack).getSize(stack).isEqualOrSmallerThan(TFCFCAConfig.THERMAL_VESSEL_MAXIMUM_ITEM_SIZE.get())
                     && stack.getTags().noneMatch((itemTagKey -> itemTagKey.equals(TFCTags.Items.VESSELS))
             );
         }
@@ -102,7 +103,7 @@ public class AdvancedVesselItem extends Item {
         @Override
         public int slotCapacity()
         {
-            return 4;
+            return TFCFCAConfig.THERMAL_VESSEL_SLOT_CAPACITY.get();
         }
     };
 
