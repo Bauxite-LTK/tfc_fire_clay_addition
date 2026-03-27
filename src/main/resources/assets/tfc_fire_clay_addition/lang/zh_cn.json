@@ -1,0 +1,11 @@
+{
+  "itemGroup.tfc_fire_clay_addition": "群峦耐火黏土附加",
+
+  "item.tfc_fire_clay_addition.advanced_vessel": "保温小罐",
+  "item.tfc_fire_clay_addition.unfired_advanced_vessel": "未烧制的保温小罐",
+
+  "tfc_fire_clay_addition.configuration.title": "群峦耐火黏土附加 配置",
+
+  "tfc_fire_clay_addition.configuration.section.tfc_fire_clay_addition.common.toml": "群峦耐火黏土附加 配置",
+  "tfc_fire_clay_addition.configuration.section.tfc_fire_clay_addition.common.toml.title": "群峦耐火黏土附加 配置"
+}

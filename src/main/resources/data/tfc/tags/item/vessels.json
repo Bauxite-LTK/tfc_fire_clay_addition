@@ -1,0 +1,8 @@
+{
+  "values":[
+    "#tfc:unfired_vessels",
+    "#tfc:fired_vessels",
+    "tfc_fire_clay_addition:advanced_vessel",
+    "tfc_fire_clay_addition:unfired_advanced_vessel"
+  ]
+}

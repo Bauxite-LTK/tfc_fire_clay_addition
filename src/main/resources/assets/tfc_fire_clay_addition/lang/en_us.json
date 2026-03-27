@@ -1,0 +1,11 @@
+{
+  "itemGroup.tfc_fire_clay_addition": "TFC Fire Clay Addition",
+
+  "item.tfc_fire_clay_addition.advanced_vessel": "Thermal Vessel",
+  "item.tfc_fire_clay_addition.unfired_advanced_vessel": "Unfired Thermal Vessel",
+
+  "tfc_fire_clay_addition.configuration.title": "TFC: Fire Clay Addition Configs",
+
+  "tfc_fire_clay_addition.configuration.section.tfc_fire_clay_addition.common.toml": "TFC: Fire Clay Addition Configs",
+  "tfc_fire_clay_addition.configuration.section.tfc_fire_clay_addition.common.toml.title": "TFC: Fire Clay Addition Configs"
+}
